@@ -1,0 +1,25 @@
+body{
+    background-color: dimgrey;
+}
+
+h2 {
+    color:brown;
+}
+P {
+    font-size: medium;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+ul li {
+    display: inline-block;
+    list-style-type: disc;
+}
+ul {
+    text-align: center;
+}
+li a {
+    color: black;
+    text-decoration: none;
+}
+li a:hover{
+    color: cornflowerblue;
+}
