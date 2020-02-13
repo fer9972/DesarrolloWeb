@@ -48,11 +48,31 @@
                             <option value="003">Comunicación</option>
                         </select>
                     </div>
-                    <input class="btn btn-primary" type="submit" value="Crear estudiante">
+                    <input class="btn btn-primary" id ="btnCrearEstudiante" type="submit" value="Crear estudiante">
+                    <input class="btn btn-primary" id ="btnEditarEstudiante" onclick="actualizarEstudiante()" type="button" value="Actualizar estudiante">
                 </form>
             </div>
         </div>
+
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">Identificacion</th>
+                <th scope="col">Nombre</th>
+                <th scope="col">Correo</th>
+                <th scope="col">Carrera</th>
+                <th scope="col">Eliminar</th>
+                <th scope="col">Editar</th>
+              </tr>
+            </thead>
+            <tbody id="listaEstudiantes">
+            </tbody>
+          </table>
+
     </div>
+
+
+
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
             integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
             crossorigin="anonymous"></script>
